@@ -3,6 +3,9 @@
     "description": "Buscador de cursos utilizando composer",
     "type": "library",
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
             "Folb\\BuscadorDeCursos\\": "src/"
         }
@@ -38,5 +41,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    ""
 }
